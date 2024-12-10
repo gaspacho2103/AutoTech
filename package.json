@@ -1,0 +1,17 @@
+{
+  "name": "avtotech-app",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron . --no-sandbox",
+    "package": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8",
+    "webdriverio": "^9.2.14"
+  }
+}
