@@ -1,4 +1,4 @@
-const {app, BrowserWindow, ipcMain} = require('electron');
+const {app, netLog, BrowserWindow, ipcMain} = require('electron');
 const path = require('path');
 
 let win;
@@ -50,8 +50,6 @@ ipcMain.on('load-new-page', (event, page) => {
         win.loadFile(page);
     }
 });
-
-const { app, netLog } = require('electron')
 
 app.whenReady().then(async () => {
   await netLog.startLogging('/path/to/net-log')
