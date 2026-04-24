@@ -1,5 +1,5 @@
 async function getOrders() {
-    let res = await fetch('https://cg16522.tw1.ru/orders', {
+    let res = await fetch('http://api.avtotech.ru/orders', {
         method: 'GET',
         headers: {
             'Cache-Control': 'no-cache'
@@ -57,7 +57,7 @@ async function addOrder() {
 }
 
 async function deleteOrder(id) {
-    const res = await fetch(`https://cg16522.tw1.ru/orders/${id}`, {
+    const res = await fetch(`http://api.avtotech.ru/orders/${id}`, {
         method: 'DELETE'
     });
 
@@ -85,7 +85,7 @@ async function updateOrder(id) {
         avto: avto
     }
 
-    const res = await fetch(`https://cg16522.tw1.ru/orders/${id}`, {
+    const res = await fetch(`http://api.avtotech.ru/orders/${id}`, {
         method: 'PATCH',
         body: JSON.stringify(data)
     });
