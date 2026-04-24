@@ -1,5 +1,5 @@
 async function getReviews() {
-    let res = await fetch('https://cg16522.tw1.ru/reviews', {
+    let res = await fetch('http://api.avtotech.ru/reviews', {
         method: 'GET',
         headers: {
             'Cache-Control': 'no-cache'
@@ -29,7 +29,7 @@ async function getReviews() {
 }
 
 async function deleteReview(id) {
-    const res = await fetch(`https://cg16522.tw1.ru/reviews/${id}`, {
+    const res = await fetch(`http://api.avtotech.ru/reviews/${id}`, {
         method: 'DELETE'
     });
 
