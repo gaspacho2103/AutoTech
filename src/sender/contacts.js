@@ -1,5 +1,5 @@
 async function getContacts() {
-    let res = await fetch('https://cg16522.tw1.ru/contacts');
+    let res = await fetch('http://api.avtotech.ru/contacts');
     let contacts = await res.json();
 
     const tbody = document.querySelector('.table tbody');
@@ -38,7 +38,7 @@ async function updateContacts() {
         address: address
     }
 
-    const res = await fetch(`https://cg16522.tw1.ru/contacts`, {
+    const res = await fetch(`http://api.avtotech.ru/contacts`, {
         method: 'PATCH',
         body: JSON.stringify(data)
     });
