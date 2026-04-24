@@ -1,5 +1,5 @@
 async function securityAuth() {
-    let res = await fetch('https://cg16522.tw1.ru//prava');
+    let res = await fetch('http://api.avtotech.ru/prava');
     let orders = await res.json();
 
     let login = document.getElementById('login').value;
