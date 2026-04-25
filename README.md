@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://github.com/gaspacho2103/autotechnical/assets/130499580/ee2af47f-a65c-4180-a5cf-fc264c2fe765" width="800" alt="Логотип проекта">
+  <img src="https://github.com/gaspacho2103/autotechnical/assets/130499580/ee2af47f-a65c-4180-a5cf-fc264c2fe765" width="900" alt="Логотип проекта">
 </p>
 
 <h2>📋 О проекте</h2>
@@ -38,9 +38,9 @@
 <p><strong>Шаг 1:</strong> Скачайте проект с репозитория через zip или через git clone</p>
 
 <p align="center">
-  <img src="https://github.com/gaspacho2103/autotechnical/assets/130499580/d204b055-1ba8-4982-8a88-e50357319c2d" width="800">
+  <img src="https://github.com/gaspacho2103/autotechnical/assets/130499580/d204b055-1ba8-4982-8a88-e50357319c2d">
   <br>
-  <img src="https://github.com/gaspacho2103/autotechnical/assets/130499580/04dde195-363a-4282-8ba0-b99b0d738dd9" width="800">
+  <img src="https://github.com/gaspacho2103/autotechnical/assets/130499580/04dde195-363a-4282-8ba0-b99b0d738dd9">
 </p>
 
 <p><strong>Шаг 2:</strong> Поместите файлы в папку локального веб-сервера (OpenServer, XAMPP и др.)</p>
