@@ -1,11 +1,17 @@
 <?php
 
-    header('Access-Control-Allow-Origin: *');
-    header('Access-Control-Allow-Headers: *');
-    header('Access-Control-Allow-Methods: *');
+    // header('Access-Control-Allow-Origin: http://avtotech.ru');
+    header('Access-Control-Allow-Headers: Origin, Content-Type, Accept, Authorization');
+    header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
     header('Access-Control-Allow-Credentials: true');
 
-    header('Content-type: json/application');
+    header('Content-type: application/json');
+    header('Timing-Allow-Origin: http://avtotech.ru', false);
+
+    if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+        http_response_code(204);
+        exit();
+    }
 
     require 'config.php';
     require 'functions.php';
