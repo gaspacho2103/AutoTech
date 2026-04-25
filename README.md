@@ -27,8 +27,6 @@
   <li>Desktop-приложение: Electron</li>
   <li>Backend API: PHP (нативное, без фреймворков)</li>
   <li>База данных: MySQL</li>
-  <li>Стилизация: Flexbox, Grid, медиа-запросы</li>
-  <li>PWA: Service Workers, Web App Manifest</li>
 </ul>
 
 <hr>
