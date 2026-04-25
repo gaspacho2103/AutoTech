@@ -38,8 +38,6 @@
 <p><strong>Шаг 1:</strong> Скачайте проект с репозитория через zip или через git clone</p>
 
 <p align="center">
-  <img src="https://github.com/gaspacho2103/autotechnical/assets/130499580/d204b055-1ba8-4982-8a88-e50357319c2d">
-  <br>
   <img src="https://github.com/gaspacho2103/autotechnical/assets/130499580/04dde195-363a-4282-8ba0-b99b0d738dd9">
 </p>
 
