@@ -57,7 +57,13 @@
   <img src="https://github.com/gaspacho2103/autotechnical/assets/130499580/753fa4c8-838f-458c-a95d-f352e3510eae" width="800">
 </p>
 
-<p><strong>Шаг 5:</strong> Запустите веб-сервер и откройте сайт</p>
+<p><strong>Шаг 5:</strong> Поменяйте доменный адрес во всех .js файлах в строках с await fetch</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b956a213-7e2b-4d6e-97b4-e332390a8170" />
+</p>
+
+<p><strong>Шаг 6:</strong> Запустите веб-сервер и откройте сайт</p>
 
 <blockquote>
   ✅ <strong>Готово!</strong> Проект запущен и готов к работе.
