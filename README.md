@@ -33,10 +33,8 @@ cd autotechnical
 <br />
 
 <p align="center">
-  
-
+  <img width="581" height="370" alt="image" src="https://github.com/user-attachments/assets/e9e1dc7d-d48f-42ab-8c4f-9c8ed7fb7e4f" />
 </p><br />
-
 
 <p><strong>Шаг 3:</strong> Установите зависимости:</p>
 
@@ -49,7 +47,7 @@ npm install
 <br />
 
 <p align="center">
-  <img src="">
+  <img width="1442" height="899" alt="image" src="https://github.com/user-attachments/assets/ad4ffac9-0947-4152-8adf-4270d5a59eba" />
 </p><br />
 
 <p><strong>Шаг 5:</strong> Запустите приложение:</p>
@@ -61,6 +59,10 @@ npm start
 <blockquote>
   ✅ <strong>Готово!</strong> Приложение запустится в отдельном окне.
 </blockquote>
+
+<p align="center">
+  <img width="1199" height="695" alt="image" src="https://github.com/user-attachments/assets/0cfe451a-1fc4-4876-b473-50a7ec7f9671" />
+</p><br />
 
 <hr>
 
