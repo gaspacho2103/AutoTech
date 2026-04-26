@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="" width="900" alt="Скрин проекта">
+  <img width="1199" height="698" alt="image" src="https://github.com/user-attachments/assets/5cb8618d-9538-4323-b374-d0789d06b9eb" alt="Скрин проекта" />
 </p>
 
 <h2>🚀 О приложении</h2>
@@ -23,10 +23,6 @@
 
 <p><strong>Шаг 1:</strong> Убедитесь, что у вас установлен <code>Node.js</code> (версия 16+) и запущен основной сервер (см. главную ветку <code>main</code>).</p><br />
 
-<p align="center">
-  <img src="">
-</p><br />
-
 <p><strong>Шаг 2:</strong> Клонируйте ветку application:</p>
 
 <pre>
@@ -37,7 +33,8 @@ cd autotechnical
 <br />
 
 <p align="center">
-  <img src="">
+  
+
 </p><br />
 
 
