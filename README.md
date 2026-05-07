@@ -33,7 +33,7 @@
 
 <h2>🔧 Установка и запуск</h2>
 
-<p><strong>Шаг 1:</strong> Скачайте проект с репозитория через zip или через git clone</p>
+<p><strong>Шаг 1:</strong> Скачайте проект с репозитория через zip или через <code>git clone</code></p>
 
 <p align="center">
   <img src="https://github.com/gaspacho2103/autotechnical/assets/130499580/04dde195-363a-4282-8ba0-b99b0d738dd9">
@@ -45,7 +45,7 @@
   <img src="https://github.com/gaspacho2103/autotechnical/assets/130499580/f3a086c8-7628-4478-b666-ba303ba12eab" width="800">
 </p>
 
-<p><strong>Шаг 3:</strong> Импортируйте базу данных. Откройте вашу СУБД и выполните файл avtotech.sql</p>
+<p><strong>Шаг 3:</strong> Импортируйте базу данных. Откройте вашу СУБД и выполните файл <code>avtotech.sql</code></p>
 
 <p align="center">
   <img src="https://github.com/gaspacho2103/autotechnical/assets/130499580/7f1b864d-fd84-4f35-a3c9-6567eef607d9" width="800">
@@ -57,7 +57,7 @@
   <img src="https://github.com/gaspacho2103/autotechnical/assets/130499580/753fa4c8-838f-458c-a95d-f352e3510eae" width="800">
 </p>
 
-<p><strong>Шаг 5:</strong> Поменяйте доменный адрес во всех .js файлах в строках с await fetch</p>
+<p><strong>Шаг 5:</strong> Поменяйте доменный адрес во всех .js файлах в строках с <code>await fetch</code></p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b956a213-7e2b-4d6e-97b4-e332390a8170" />
@@ -70,7 +70,7 @@
 </blockquote>
 
 <blockquote>
-<strong>Для установки desktop-приложения для администрирования сервиса перейдите в ветку application и следуйте инструкциям из readme</strong>
+<strong>Для установки desktop-приложения для администрирования сервиса перейдите в ветку <code>application</code> и следуйте инструкциям из readme</strong>
 </blockquote>
 <hr>
 
