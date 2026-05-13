@@ -22,7 +22,7 @@
                 <a href="/reviews.php" class="nav__link">Отзывы</a>
             </nav>
             <div class="telephone">
-                <script src="contact.js"></script>
+                <script src="contact.js" type="module" defer></script>
             </div>
         </div>
     </header>
@@ -31,7 +31,7 @@
                 <h3 class="review-title">Отзывы наших клиентов</h3>
                 <div class="review__block">
                     <div class="reviews">
-                        <script src="review.js"></script>
+                        <script src="review.js" type="module" defer></script>
                     </div>
                     <div class="add__review">
                         <form action="" method="post" class="review_form">
