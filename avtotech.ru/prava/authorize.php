@@ -21,6 +21,6 @@
                 <button type="submit" class="authButton" onclick="securityAuth()">Войти</button><br>
             </form>
 
-            <script src="authorize.js"></script>
+            <script src="authorize.js" type="module" defer></script>
     </body>
 </html>
