@@ -1,20 +1,25 @@
 async function securityAuth() {
-    let res = await fetch('http://api.avtotech.ru/prava');
-    let orders = await res.json();
+    try {
+        let res = await fetch('http://api.avtotech.ru/prava');
 
-    let login = document.getElementById('login').value;
-    let password = document.getElementById('password').value;
+        if(!res.ok) {
+            throw new Error(`Ошибка запроса: ${res.status}`);
+        }
 
-    const trueLogin = orders.login;
-    const truePassword = orders.password;
+        let orders = await res.json();
 
-    if (login === trueLogin && password === truePassword) {
-        document.location.href = 'admin.php';
-    } else {
-        alert('Неверно введён логин или пароль');
-    }
+        let login = document.getElementById('login').value;
+        let password = document.getElementById('password').value;
 
-    
-    
+        const trueLogin = orders.login;
+        const truePassword = orders.password;
+
+        if (login === trueLogin && password === truePassword) {
+            document.location.href = 'admin.php';
+        } else {
+            alert('Неверно введён логин или пароль');
+        }
+    } catch(error) {
+        console.error("Получена ошибка: ", error);
+    } 
 }
-
