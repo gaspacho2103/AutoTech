@@ -22,7 +22,7 @@
                 <a href="/reviews.php" class="nav__link">Отзывы</a>
             </nav>
             <div class="telephone">
-                <script src="contact.js"></script>
+                <script src="contact.js" type="module" defer></script>
             </div>
         </div>
     </header>
@@ -92,7 +92,7 @@
                         <label for="avto" class="order-label">Введите марку автомобиля:</label><br>
                         <input type="text" name="avto" id="avto" class="order-input"><br><br><br>
                         <button type="submit" class="sender-button" onclick="addOrder()">Отправить заявку</button>
-                        <script src="order.js"></script>
+                        <script src="order.js" type="module" defer></script>
                     </div>
                 </form>
             </div>
