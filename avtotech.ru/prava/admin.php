@@ -52,7 +52,7 @@
                                                 <th>Название авто</th>
                                             </tr>
                                         </thead>
-                                </table> <script src='orders.js'></script>";
+                                </table> <script src='orders.js' type='module' defer></script>";
                             break;
                             case 'reviews':
                                 echo "<h3 class='tableTitle'>Таблица 'Reviews'</h3>
@@ -64,7 +64,7 @@
                                                 <th>Отзыв</th>
                                             </tr>
                                         </thead>
-                                </table> <script src='reviews.js'></script>";
+                                </table> <script src='reviews.js' type='module' defer></script>";
                             break;
                             case 'contacts':
                                 echo "<h3 class='tableTitle'>Таблица 'Contacts'</h3>
@@ -78,7 +78,7 @@
                                             </tr>
                                         </thead>
                                         
-                                </table> <script src='contacts.js'></script>";
+                                </table> <script src='contacts.js' type='module' defer></script>";
                             break;
                         }
                     }
