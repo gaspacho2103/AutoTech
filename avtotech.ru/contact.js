@@ -1,4 +1,3 @@
-// Функция экранирования (защита от XSS)
 function escapeHtml(str) {
     if (!str) return '';
     return str
@@ -25,7 +24,6 @@ async function getContacts() {
         const contacts = await res.json();
         if (!contacts || contacts.length === 0) return;
 
-        // Очищаем перед вставкой (чтобы не дублировать при повторных вызовах)
         telephoneDiv.innerHTML = '';
         footerContainer.innerHTML = '';
 
@@ -35,13 +33,11 @@ async function getContacts() {
             const safeEmail = escapeHtml(contact.email);
             const safeAddress = escapeHtml(contact.address);
 
-            // Вставляем в .telephone
             telephoneDiv.innerHTML += `
                 <img src="assets/icons/russia.png" alt="" class="ru">
                 <a class="phone" href="tel:${safeTelephone}">${safeTelephone}</a>
             `;
 
-            // Вставляем в .footer__container
             footerContainer.innerHTML += `
                 <div class="contacts">
                     <h2 class="footer__title">Наши контакты:</h2>
@@ -59,7 +55,6 @@ async function getContacts() {
         });
     } catch (error) {
         console.error('Ошибка загрузки контактов:', error);
-        // Можно показать заглушку, но не ломать страницу
         if (telephoneDiv) telephoneDiv.innerHTML = '<span class="error">Контакты временно недоступны</span>';
     }
 }
